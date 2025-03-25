@@ -8,7 +8,7 @@ const userString = prompt (
 const stringArray = userString.split(",");
 
 //Creates function to iterate through array of flavors 
-function countOrders(flavors) {
+const countOrders = (flavors) => {
     let totalOrders = {}; // Creates object to store counts
     
     //Loops through the array and updates object values accordingly
